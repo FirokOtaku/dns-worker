@@ -51,3 +51,13 @@ example: `https://dns.firok.space/dns-query?name=baidu.com`
 ```
 
 (`DNSResponse` 格式详情可查阅上述后端 DNS 文档)
+
+## 变更日志
+
+* 计划中的功能
+  * 增加 `timeout` 参数, 手动设置后端 DNS 响应超时时间
+  * 增加 `backends` 参数, 允许指定需要查询的后端 DNS
+* 1.1.0
+  * 为接口增加跨域支持
+* 1.0.0
+  * 基本实现功能
