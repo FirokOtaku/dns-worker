@@ -1,6 +1,7 @@
 
 const ResponseHeaders = new Headers()
 ResponseHeaders.append('Content-Type', 'application/json')
+ResponseHeaders.append('Access-Control-Allow-Origin', '*')
 
 const TimeoutBackendQuery = 3000
 
@@ -108,7 +109,7 @@ export default {
 					desc: [
 						`Providing '${KeyHostname}' request parameter to start querying. example: /dns-query?${KeyHostname}=baidu.com`,
 						`Access GitHub repo for more information`,
-						`Version: 1.0.0`,
+						`Version: 1.1.0`,
 						`Author: Firok`,
 						`Repo: https://github.com/FirokOtaku/dns-worker`,
 					],
